@@ -20,5 +20,6 @@ int main() {
   A.input();
   A.display();
 
+  std::cout << "Yudin Karki\n";
   return 0;
 }

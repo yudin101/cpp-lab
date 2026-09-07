@@ -22,5 +22,7 @@ int main() {
   new_function(4);
   new_function(2, 'h');
   new_function(0, 'i', 6.9);
+
+  std::cout << "Yudin Karki\n";
   return 0;
 }

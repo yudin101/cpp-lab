@@ -9,5 +9,6 @@ int main() {
 
   std::cout << "Weight: " << mass * gravity << "\n";
 
+  std::cout << "Yudin Karki\n";
   return 0;
 }

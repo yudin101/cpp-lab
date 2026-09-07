@@ -6,5 +6,7 @@ inline float average(int a, int b) {
 
 int main() {
   std::cout << "Average: " << average(3, 4) << "\n";
+
+  std::cout << "Yudin Karki\n";
   return 0;
 }

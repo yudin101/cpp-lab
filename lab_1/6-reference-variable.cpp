@@ -10,5 +10,6 @@ int main() {
   std::cout << "m=" << m << "\n";
   std::cout << "n=" << n << "\n";
 
+  std::cout << "Yudin Karki\n";
   return 0;
 }
