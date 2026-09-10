@@ -1,24 +1,24 @@
 #include <iostream>
 
-class Set {
+class Rectangle {
 public:
-  int m, n;
+  int length, breadth;
 
   void input(void) {
-    std::cout << "Input value for m and n: ";
-    std::cin >> m >> n;
+    std::cout << "Enter length and breadth: ";
+    std::cin >> length >> breadth;
   }
 
-  int largest(void) { return m >= n ? m : n; }
+  int area(void) { return length * breadth; }
 
-  void display(void) { std::cout << "Largest Value = " << largest() << "\n"; }
+  void display(void) { std::cout << "Area: " << area() << "\n"; }
 };
 
 int main() {
-  Set A;
+  Rectangle R;
 
-  A.input();
-  A.display();
+  R.input();
+  R.display();
 
   std::cout << "Yudin Karki\n";
   return 0;

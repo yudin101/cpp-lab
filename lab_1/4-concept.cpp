@@ -7,7 +7,7 @@ public:
 
 int main() {
   Calculator casio;
-  std::cout << "Addition: " << casio.add(4, 8) << "\n";
+  std::cout << "Sum: " << casio.add(4, 8) << "\n";
 
   std::cout << "Yudin Karki\n";
   return 0;

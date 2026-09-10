@@ -3,9 +3,11 @@
 
 int main() {
   int num = 12345;
-  std::cout << "setw(10)=" << std::setw(10) << num << std::endl;
-  std::cout << "setw(20)=" << std::setw(20) << num << std::endl;
+  using namespace std;
 
-  std::cout << "Yudin Karki\n";
+  cout << "setw(10)=" << setw(10) << num << endl;
+  cout << "setw(20)=" << setw(20) << num << endl;
+
+  cout << "Yudin Karki\n";
   return 0;
 }

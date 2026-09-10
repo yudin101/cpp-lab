@@ -1,21 +1,18 @@
 #include <iostream>
 
-int new_function(int num) {
+void new_function(int num) {
   std::cout << num << "\n";
-  return 0;
 }
 
-int new_function(int num, char singleStr) {
+void new_function(int num, char singleStr) {
   std::cout << num;
   std::cout << singleStr << "\n";
-  return 0;
 }
 
-int new_function(int num, char singleStr, float decimalNumber) {
+void new_function(int num, char singleStr, float decimalNumber) {
   std::cout << num;
   std::cout << singleStr;
   std::cout << decimalNumber << "\n";
-  return 0;
 }
 
 int main() {
