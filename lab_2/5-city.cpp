@@ -15,9 +15,7 @@ public:
   float getDistFromKtm() { return distFromKtm; }
 
   float addDistance(City city1, City city2) {
-    float sum = city1.distFromKtm + city2.distFromKtm;
-    std::cout << "Distance sum: " << sum << "\n";
-    return sum;
+    return city1.distFromKtm + city2.distFromKtm;
   }
 };
 
@@ -36,5 +34,6 @@ int main() {
   int sum = jhp.addDistance(pkr, dhan);
 
   std::cout << "Sum of distance: " << sum << "\n";
+  std::cout << "Yudin Karki\n";
   return 0;
 }

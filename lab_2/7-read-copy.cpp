@@ -10,24 +10,21 @@ public:
   }
 
   int getInt() { return a; }
-};
 
-class Copier {
-public:
-  int a;
+  Reader(const Reader &other) { a = other.a; }
 
-  Copier(int a) { this->a = a; }
-
-  int increment() { return a + 1; }
+  Reader() {}
 };
 
 int main() {
-  Reader r;
-  r.setInt();
+  Reader r1;
+  r1.setInt();
 
-  Copier c(r.getInt());
+  Reader r2(r1);
+
+  std::cout << "r1: " << r1.getInt() << "\n";
+  std::cout << "r2: " << r2.getInt() << "\n";
 
   std::cout << "Yudin Karki\n";
-
   return 0;
 }
